@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmResourceId": {
+            "value": "/subscriptions/e2dd1498-8dad-4e60-887e-32d2cda36d26/resourceGroups/wk-azsn/providers/Microsoft.Compute/virtualMachines/mv-ubuntu33"
+        },
+        "vmLocation": {
+            "value": "West Europe"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "workspaceResourceId": {
+            "value": "/subscriptions/e2dd1498-8dad-4e60-887e-32d2cda36d26/resourceGroups/wk-azsn/providers/Microsoft.OperationalInsights/workspaces/WKS-SECURITY"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+﻿New-AzDeployment -Name myAscDeploy -Location <yourLocation> -TemplateFile ‘<yourTemplateFileAndPathHere>' -Verbose
